@@ -16,17 +16,17 @@
 
     <title>INSPINIA | Dashboard</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="/css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -37,9 +37,9 @@
                 <ul class="nav metismenu" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element"> <span>
-                                <img alt="image" class="img-circle" src="img/profile_small.jpg" />
+                                <img alt="image" class="img-circle" src="/img/profile_small.jpg" />
                             </span>
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="/#">
                                 <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David
                                             Williams</strong>
                                     </span> <span class="text-muted text-xs block">Art Director <b
@@ -85,7 +85,7 @@
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header">
-                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="/#"><i
                                 class="fa fa-bars"></i> </a>
                         <form role="search" class="navbar-form-custom" action="search_results.html">
                             <div class="form-group">
@@ -100,14 +100,14 @@
                         </li>
                         <li class="dropdown">
                             {{-- <a class="dropdown-toggle count-info"
-                                data-toggle="dropdown" href="#">
+                                data-toggle="dropdown" href="/#">
                                 <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
                             </a> --}}
                             <ul class="dropdown-menu dropdown-messages">
                                 {{-- <li>
                                     <div class="dropdown-messages-box">
                                         <a href="profile.html" class="pull-left">
-                                            <img alt="image" class="img-circle" src="img/a7.jpg">
+                                            <img alt="image" class="img-circle" src="/img/a7.jpg">
                                         </a>
                                         <div class="media-body">
                                             <small class="pull-right">46h ago</small>
@@ -121,7 +121,7 @@
                                 {{-- <li>
                                     <div class="dropdown-messages-box">
                                         <a href="profile.html" class="pull-left">
-                                            <img alt="image" class="img-circle" src="img/a4.jpg">
+                                            <img alt="image" class="img-circle" src="/img/a4.jpg">
                                         </a>
                                         <div class="media-body ">
                                             <small class="pull-right text-navy">5h ago</small>
@@ -135,7 +135,7 @@
                                 {{-- <li>
                                     <div class="dropdown-messages-box">
                                         <a href="profile.html" class="pull-left">
-                                            <img alt="image" class="img-circle" src="img/profile.jpg">
+                                            <img alt="image" class="img-circle" src="/img/profile.jpg">
                                         </a>
                                         <div class="media-body ">
                                             <small class="pull-right">23h ago</small>
@@ -156,7 +156,7 @@
                         </li>
                         <li class="dropdown">
                             {{-- <a class="dropdown-toggle count-info"
-                                data-toggle="dropdown" href="#">
+                                data-toggle="dropdown" href="/#">
                                 <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
                             </a> --}}
                             <ul class="dropdown-menu dropdown-alerts">
@@ -320,13 +320,13 @@
 
                 <ul class="nav nav-tabs navs-3">
 
-                    <li class="active"><a data-toggle="tab" href="#tab-1">
+                    <li class="active"><a data-toggle="tab" href="/#tab-1">
                             Notes
                         </a></li>
-                    <li><a data-toggle="tab" href="#tab-2">
+                    <li><a data-toggle="tab" href="/#tab-2">
                             Projects
                         </a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-3">
+                    <li class=""><a data-toggle="tab" href="/#tab-3">
                             <i class="fa fa-gear"></i>
                         </a></li>
                 </ul>
@@ -346,7 +346,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a1.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a1.jpg">
 
                                         <div class="m-t-xs">
                                             <i class="fa fa-star text-warning"></i>
@@ -364,7 +364,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a2.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a2.jpg">
                                     </div>
                                     <div class="media-body">
                                         The point of using Lorem Ipsum is that it has a more-or-less normal.
@@ -376,7 +376,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a3.jpg">
 
                                         <div class="m-t-xs">
                                             <i class="fa fa-star text-warning"></i>
@@ -395,7 +395,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a4.jpg">
                                     </div>
 
                                     <div class="media-body">
@@ -408,7 +408,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a8.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a8.jpg">
                                     </div>
                                     <div class="media-body">
 
@@ -421,7 +421,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a7.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a7.jpg">
                                     </div>
                                     <div class="media-body">
                                         Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
@@ -434,7 +434,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a3.jpg">
 
                                         <div class="m-t-xs">
                                             <i class="fa fa-star text-warning"></i>
@@ -452,7 +452,7 @@
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
-                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                        <img alt="image" class="img-circle message-avatar" src="/img/a4.jpg">
                                     </div>
                                     <div class="media-body">
                                         Uncover many web sites still in their infancy. Various versions have.
@@ -707,46 +707,46 @@
     </div>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Flot -->
-    <script src="js/plugins/flot/jquery.flot.js"></script>
-    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
-    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
-    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="/js/plugins/flot/jquery.flot.js"></script>
+    <script src="/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="/js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="/js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="/js/plugins/flot/jquery.flot.pie.js"></script>
 
     <!-- Peity -->
-    <script src="js/plugins/peity/jquery.peity.min.js"></script>
-    <script src="js/demo/peity-demo.js"></script>
+    <script src="/js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="/js/demo/peity-demo.js"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="/js/inspinia.js"></script>
+    <script src="/js/plugins/pace/pace.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- GITTER -->
-    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="/js/plugins/gritter/jquery.gritter.min.js"></script>
 
     <!-- Sparkline -->
-    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Sparkline demo data  -->
-    <script src="js/demo/sparkline-demo.js"></script>
+    <script src="/js/demo/sparkline-demo.js"></script>
 
     <!-- ChartJS-->
-    <script src="js/plugins/chartJs/Chart.min.js"></script>
+    <script src="/js/plugins/chartJs/Chart.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="/js/plugins/toastr/toastr.min.js"></script>
 
     <!-- DataTables -->
-    <script src="js/plugins/dataTables/datatables.min.js"></script>
+    <script src="/js/plugins/dataTables/datatables.min.js"></script>
 
     <script>
         $('.dataTables-example').DataTable({

@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('dashboard.index');
 });
+
+Route::resource('dashboard', DashboardController::class);
+Route::resource('clientes', ClienteController::class);
+Route::resource('produtos', ProdutoController::class);
+Route::resource('categorias', CategoriaController::class);
+Route::resource('subcategorias', SubcategoriaController::class);

@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Categoria;
 
-class CategoriaController extends Controller
+class VendaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +13,7 @@ class CategoriaController extends Controller
      */
     public function index()
     {
-        $categorias = Categoria::all();
-
-        return view('categorias.index', compact('categorias'));
+        //
     }
 
     /**
@@ -26,7 +23,7 @@ class CategoriaController extends Controller
      */
     public function create()
     {
-        return view('categorias.cadastrar');
+        //
     }
 
     /**
@@ -37,11 +34,7 @@ class CategoriaController extends Controller
      */
     public function store(Request $request)
     {
-        
-        Categoria::create($request->all());
-
-        return redirect()->route('categorias.index');
-
+        //
     }
 
     /**
@@ -52,7 +45,7 @@ class CategoriaController extends Controller
      */
     public function show($id)
     {
-
+        //
     }
 
     /**
@@ -63,9 +56,7 @@ class CategoriaController extends Controller
      */
     public function edit($id)
     {
-        $categoria = Categoria::find($id);
-
-        return view('categorias.editar', compact('categoria'));
+        //
     }
 
     /**
@@ -77,9 +68,7 @@ class CategoriaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        Categoria::find($id)->update($request->all());
-
-        return redirect()->route('categorias.index');
+        //
     }
 
     /**
@@ -90,10 +79,6 @@ class CategoriaController extends Controller
      */
     public function destroy($id)
     {
-        
-        Categoria::find($id)->delete();
-
-        return redirect()->route('categorias.index');
-
+        //
     }
 }
